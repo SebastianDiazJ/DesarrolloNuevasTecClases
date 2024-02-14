@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+ font-size:16 px;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 59%, 51%);
+    font-size: 25px;
+  /* alineacion de items al centro  */
+}
+.profile{
+    background-color: hsl(71, 100%, 40%);
+    padding: 50px;
+    border-radius: 20%;
+    /*el espacio entre cajas
+    y con borde */
+}
+.profile__avatar{
+    /* ponerle 100% para que quede
+    redonda alto y ancho igual  */
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.profile__name{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+/* hacer cada uno de los profiles que falta  */
+section button > p { /* p significa  es hijo del section*/  
+font-size: 30px;
+}
+section button:first-child 
+/* le esta diciendo coja el primer botton  */
+{
+    background-color: blueviolet;
+}
+button{
+    border-radius: 10%;
+}
+.profile__btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+
