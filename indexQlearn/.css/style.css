@@ -1,0 +1,293 @@
+
+
+/* Agregue un color de fondo al elemento del cuerpo */
+body {
+    background-color: #ebbf9b;
+}
+
+/* color y un efecto de desplazamiento a los enlaces */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* efecto de desplazamiento a los botones */
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/*  un color  menú de navegación: */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/*  efecto de desplazamiento al encabezado y a la sección principal: */
+
+
+header, main {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header h2, main h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+header h3, main h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+main p {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+main button:first-of-type {
+    margin-right: 20px;
+}
+
+
+
+/*  relleno, un color de fondo  efecto de desplazamiento a la sección con las características: */
+
+.features {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.features h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.features p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features li {
+    flex-basis: 30%;
+}
+
+.features li strong {
+    display: block;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* estilo de listas  */
+
+.services-list li {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.services-list li::before {
+    content: '';
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #333;
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.services-list li p {
+    margin: 0;
+    color: #444;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    flex: 1;
+}
+
+.services-list li p:first-child {
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.services-list li:first-child::before {
+    background-color: #333;
+    margin-top: 2rem;
+}
+
+
+/* sección con los cursos:*/
+
+.courses h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.courses ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses li h3 {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.courses li p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.courses li button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.courses li button:hover {
+    background-color: #555;
+}
+
+
+/* footer y loggin  */
+
+
+header section {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+header button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+header button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+}
+
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s ease;
+}
+
+footer .social a:hover {
+    color: #ccc;
+}
+
+footer .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+footer .links li {
+    margin-right: 20px;
+}
+
+footer .links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .links li a:hover {
+    color: #ccc;
+}
+
+footer .copyright {
+    color: #fff;
+}
+
+footer .address {
+    color: #fff;
+}
+
+footer .support {
+    color: #fff;
+}
