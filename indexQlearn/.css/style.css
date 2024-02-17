@@ -2,7 +2,7 @@
 
 /* Agregue un color de fondo al elemento del cuerpo */
 body {
-    background-color: #ebbf9b;
+    background-color: #d3dbf8;
 }
 
 /* color y un efecto de desplazamiento a los enlaces */
@@ -124,50 +124,49 @@ main button:first-of-type {
 
 /* estilo de listas  */
 
-.services-list li {
-    margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-}
-
-.services-list li::before {
-    content: '';
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: #333;
-    display: inline-block;
-    margin-right: 1rem;
-    line-height: 3rem;
-    text-align: center;
-    color: #fff;
-    font-size: 1.5rem;
-    margin-top: 0.5rem;
-}
-
-.services-list li p {
-    margin: 0;
-    color: #444;
-    font-size: 1.2rem;
+.services-list {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .services-list li {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .services-list p {
+    font-size: 16px;
     line-height: 1.5;
-    flex: 1;
+  }
+  
+  /* profesional  */
+  .Profesional {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+/* sección con los cursos:*/ 
+.courses{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 }
-
-.services-list li p:first-child {
-    color: #333;
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.services-list li:first-child::before {
-    background-color: #333;
-    margin-top: 2rem;
-}
-
-
-/* sección con los cursos:*/
-
 .courses h2 {
     color: #333;
     margin-bottom: 10px;
@@ -183,7 +182,7 @@ main button:first-of-type {
     margin-bottom: 20px;
 }
 
-.courses li h3 {
+.courses li  h3 {
     color: #555;
     margin-bottom: 10px;
 }
@@ -206,7 +205,16 @@ main button:first-of-type {
 .courses li button:hover {
     background-color: #555;
 }
+/* testimonios  */
+.testimonials 
+{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 
+}
 
 /* footer y loggin  */
 
