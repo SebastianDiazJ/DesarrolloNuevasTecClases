@@ -1,13 +1,13 @@
 
 
-/* Agregue un color de fondo al elemento del cuerpo */
+/* color de fondo al elemento del cuerpo */
 body {
-    background-color: #d3dbf8;
+    background-color: #6258c4;
 }
 
 /* color y un efecto de desplazamiento a los enlaces */
 a {
-    color: #333;
+    color: #2e13c2;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -19,7 +19,7 @@ a:hover {
 /* efecto de desplazamiento a los botones */
 
 button {
-    background-color: #333;
+    background-color: #1512cc;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -47,9 +47,9 @@ nav a {
     color: #fff;
     padding: 5px;
 }
-
+/* color del fondo del header  */
 nav a:hover {
-    background-color: #555;
+    background-color: #1b0fca;
 }
 
 /*  efecto de desplazamiento al encabezado y a la sección principal: */
@@ -59,7 +59,7 @@ header, main {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(6, 21, 233, 0.1);
     margin-bottom: 20px;
 }
 
@@ -91,7 +91,7 @@ main button:first-of-type {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(16, 128, 136, 0.1);
     margin-bottom: 20px;
 }
 
@@ -130,6 +130,10 @@ main button:first-of-type {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
   .services-list li {
@@ -142,7 +146,16 @@ main button:first-of-type {
     font-size: 16px;
     line-height: 1.5;
   }
-  
+  /* foto */
+  .empresas-img {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+ 
+
   /* profesional  */
   .Profesional {
     padding: 20px;
@@ -192,8 +205,10 @@ main button:first-of-type {
     margin-bottom: 10px;
 }
 
+/* botenes del curso  */
+
 .courses li button {
-    background-color: #333;
+    background-color: #1606a7;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -226,7 +241,7 @@ header section {
 }
 
 header button {
-    background-color: #333;
+    background-color: #270d99;
     color: #fff;
     padding: 10px 20px;
     border: none;
