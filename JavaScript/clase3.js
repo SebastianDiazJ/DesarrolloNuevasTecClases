@@ -57,26 +57,50 @@ const wave = function(){
 
 }
 
-
+//$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$SEGUIMIENTO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 //seguimiento contruir 3 funciones (arrow function)
 //sin parametros, 1 parametro , 2 o mas parametros , y declarar variables  con let y const  como min 5 
 //integrar con llamado a funciones y mostrar resultados  .
 
-//sin parametros 
-const sinParametrosFunction = () => {
-    console.log(' hola a todos los saludo ');
-  }
-  sinParametrosFunction();
+//########################################SOLUCION#######################################################################
+// 5 variables
 
-  //1 parametro resivir un parametro y que entregue un parametro  puede ser saludar 
+let nombre = "Sebas";
+let edad = 30; 
+let estaCasado = false ;// si se cambia afecta a la funcion 
+let direccion ;
+let Hombre = "Alex";
 
-let UnParametroFunction = (param) => {
-  console.log(`hola solo tengo una parametro :): ${param}.`);
+//sin parametros
+
+function Direccion() {
+    console.log("La dirección es: " + direccion);
 }
-UnParametroFunction('Ejemplo:');
 
-//dos parametros    una suma o una multiplicacion 
+// Llamado 
+Direccion();
 
 
+//1 parametro
+
+function mostrarEdad(edad) {
+    console.log("Ombe "+" Su Edad es: " + edad + " ¡Está viejito jajaj!");
+}
+
+// Llamada a la función
+mostrarEdad(edad); 
+
+
+//2 parametros
+
+function EstadoCivil(Hombre, estaCasado) {
+    if (estaCasado) {
+        console.log(Hombre + " está casado.");
+    } else {
+        console.log(Hombre + " no está casado.");
+    }
+}
+
+EstadoCivil(Hombre, estaCasado); //  función con dos parámetros
 
 
