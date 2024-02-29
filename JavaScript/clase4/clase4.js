@@ -75,6 +75,32 @@ numeros.forEach(numero => {
 
 
 
+// CREAR ARREGLOS USANDO FUNCIONES (FLECHA) MINIMO 4 ARREGLOS
+const arreglo1 = [1, 2, 3, 4, 5,6,7,8,12,16];
+const arreglo2 = ["s", "e", "b", "a", "e","k"];
+const arreglo3 = [true, false, true, true, false];
+const arreglo4 = [10, 20, 15.7, 30, 25];
+
+// Métodos de arreglo y forEach
+console.log("Arreglo 1:");
+
+// filter para obtener  los números pare
+const pares = arreglo1.filter(num => num % 2 === 0);
+console.log("Números pares:", pares);
+
+console.log("Arreglo 2:");
+//  map para convertir cada letra a mayúsculas
+const mayusculas = arreglo2.map(letra => letra.toUpperCase());
+console.log("Mayúsculas:", mayusculas);
+
+console.log("Arreglo 3:");
+// Método reduce para contar cuántos elementos son falsos
+const contarFalsos = arreglo3.reduce((contador, valor) => contador + (valor === false ? 1 : 0), 0);
+console.log("Cantidad de falsos:", contarFalsos);
+
+console.log("Arreglo 4:");
+// Método forEach para el arreglo4 elevado a 2
+arreglo4.forEach(num => console.log(num ** 2));
 
 
 
