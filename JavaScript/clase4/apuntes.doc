@@ -1,0 +1,24 @@
+Definición de arreglos: Primero, se creaan cuatro arreglos distintos, cada uno con diferentes tipos de elementos. Estos arreglos se denominaron arreglo1, arreglo2, arreglo3, y arreglo4.
+
+Aplicación de métodos de arreglo:
+
+Para arreglo1, se utilizó el método filter() para obtener solo los números pares.
+Para arreglo2, se empleó el método map() para convertir cada letra del arreglo a mayúsculas.
+Para arreglo3, se aplicó el método reduce() para contar cuántos elementos son falsos.
+Para arreglo4, se usó el método forEach() para imprimir cada elemento del arreglo elevado al cubo.
+
+
+1. **Declaración de arreglos**: En JavaScript, los arreglos se crean utilizando corchetes `[]`. El primer arreglo, `numeros`, contiene algunos números, mientras que el segundo arreglo, `varios`, tiene diferentes tipos de datos como texto, booleanos, números y nulos.
+
+2. **Accediendo a elementos de un arreglo**: Puedes acceder a elementos específicos de un arreglo utilizando corchetes y el índice del elemento. En JavaScript, los índices comienzan desde 0. Por ejemplo, `varios[0]` accede al primer elemento del arreglo `varios`.
+
+3. **Midiendo la longitud de un arreglo**: La propiedad `length` te permite saber cuántos elementos hay en un arreglo. Por ejemplo, `varios.length` te dará el número total de elementos en el arreglo `varios`.
+
+4. **Modificando arreglos**: Puedes agregar elementos al final de un arreglo usando `push`, eliminar el último elemento usando `pop`, agregar elementos al principio usando `unshift`, y eliminar el primer elemento usando `shift`.
+
+5. **Métodos de arreglo**:
+   reduce: Este método reduce el arreglo a un solo valor aplicando una función a cada elemento del arreglo.
+   filter: Filtra los elementos de un arreglo basado en una condición especificada.
+   map: Crea un nuevo arreglo con los resultados de llamar a una función para cada elemento del arreglo.
+   forEach: Ejecuta una función para cada elemento del arreglo, pero no retorna un nuevo arreglo.
+
