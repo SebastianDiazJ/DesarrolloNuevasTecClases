@@ -1,0 +1,20 @@
+npm create vite mui  crear proyecto de vite
+npm install    instalar npm 
+npm run dev
+
+https://mui.com/material-ui/getting-started/installation/
+
+ npm install @fontsource/roboto
+
+npm install @mui/material @emotion/react @emotion/styled
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import {CssBaseline}from '@mui/material';
+
+    <CssBaseline>
+    <App />
+    </CssBaseline>
